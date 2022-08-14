@@ -13,7 +13,6 @@ public class AnimalList
   public void addAnimal(Comparable addValue)
   {
     numAddRemove++;
-    //Shivam helped me through this, what a legend
     if(head != null)
     {
       ListNode prev = head;
